@@ -7,8 +7,10 @@ Crashed - Lost In Jungle is a turn-based roguelike mobile game developed in Unit
 "Crashed-Lost-In-Jungle" is a turn-based roguelike mobile game developed in Unity.
 
 Cast:
-Meysam Arab (arab.meysam@gmail.com) - Project Manager, Programmer, Music and Sound, Additional Public Relations, Additional Marketing & Advertisement
-Misagh Arab (dr.misagh.arab@gmail.com) - Game Designer, Graphic Designer, 2D Graphics, Additional Music and Sound
+Meysam Arab (arab.meysam@gmail.com) - Project Manager, Programmer, Music, and Sound, Additional Public Relations, Additional Marketing & Advertisement.
+Misagh Arab (dr.misagh.arab@gmail.com) - Game Designer, Graphic Designer, 2D Graphics, Additional Music and Sound.
+
+please attribute any in-game attributions too!
 
 Your plane has crashed in a dense jungle, and now you must find your way out by locating pieces of a scattered map. As you explore each area, stay alert to avoid being discovered by wild animals or native tribes. Keep a close eye on your food supply. gathering food will be crucial for your survival. Be on the lookout for weapons to defend yourself and assist in navigating through the wilderness safely. Good luck with your adventure!
 
