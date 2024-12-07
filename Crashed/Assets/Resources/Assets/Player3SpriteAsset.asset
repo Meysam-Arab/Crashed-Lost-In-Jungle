@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Player3SpriteAsset
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Idle
+    m_Hash: 2081823275
+    m_CategoryList:
+    - m_Name: Normal
+      m_Hash: 640249298
+      m_Sprite: {fileID: 21300000, guid: 845d1ab1f12280a42b47887fa958bdfe, type: 3}
+    - m_Name: Blink
+      m_Hash: -201737511
+      m_Sprite: {fileID: 21300000, guid: f6e597a3c95f41042b212d9a4f7dcff5, type: 3}
+  - m_Name: Fear
+    m_Hash: 332045248
+    m_CategoryList:
+    - m_Name: Normal
+      m_Hash: 640249298
+      m_Sprite: {fileID: 21300000, guid: 308af088a70f1c848b2c50fc4c3142c5, type: 3}
+    - m_Name: Blink
+      m_Hash: -201737511
+      m_Sprite: {fileID: 21300000, guid: 8b19c74a683227847b50ce482e338853, type: 3}
+  - m_Name: Happy
+    m_Hash: 2133634253
+    m_CategoryList:
+    - m_Name: Normal
+      m_Hash: 640249298
+      m_Sprite: {fileID: 21300000, guid: e4e0ad5a70add66458dbe003a184a542, type: 3}
+    - m_Name: Blink
+      m_Hash: -201737511
+      m_Sprite: {fileID: 21300000, guid: 7e9af2e7f767571439b94d0ef7a84243, type: 3}
