@@ -46,7 +46,7 @@ This project was developed in 2022 and is considered an older project. While it 
 ## Download the APK from:
 https://www.boredalchemist.com/
 
-
+## Screen Shots
 ![Crashed Image](https://github.com/Meysam-Arab/Crashed-Lost-In-Jungle/blob/main/imgs/1.png)
 ![Crashed Image](https://github.com/Meysam-Arab/Crashed-Lost-In-Jungle/blob/main/imgs/2.png)
 ![Crashed Image](https://github.com/Meysam-Arab/Crashed-Lost-In-Jungle/blob/main/imgs/3.png)
