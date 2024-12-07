@@ -13,6 +13,26 @@ Misagh Arab (dr.misagh.arab@gmail.com) - Game Designer, Graphic Designer, 2D Gra
 
 Your plane has crashed in a dense jungle, and now you must find your way out by locating pieces of a scattered map. As you explore each area, stay alert to avoid being discovered by wild animals or native tribes. Keep a close eye on your food supply. gathering food will be crucial for your survival. Be on the lookout for weapons to defend yourself and assist in navigating through the wilderness safely. Good luck with your adventure!
 
+Crashed and alone in the jungle! Can you use your wits to find your way out? 
+
+
+Fight over food with thieving monkeys! Struggle with other wild animals to survive! Make use of the tools and weapons that cannibal natives leave lying around!
+
+FEATURES:
+ • Hyper Casual Turn-Based Roguelike game
+ • Randomly generated levels, each bigger than the last
+ • Change the appearance of your character by restarting the game
+ • New enemies, tools, foods, weapons, etc. by unlocking each level
+ • Various Traps to avoid or make use of
+ • Treasure maps
+ 
+ To those who will be crashed in the jungle: good luck. 
+
+
+• Visit: boredalchemist.com to find our other games!
+• Twitter: https://twitter.com/balchemistgames
+• Facebook: https://www.facebook.com/Bored-Alchemist-104647171661586
+• Instagram: https://www.instagram.com/boredalchemistgames/
 
 ## Project Status
 **Note:** This project is no longer actively maintained and was last updated in 2022. It may not reflect the latest best practices or technologies.
