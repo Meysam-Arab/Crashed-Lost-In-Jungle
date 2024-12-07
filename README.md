@@ -27,10 +27,12 @@ FEATURES:
  
  To those who will be crashed in the jungle: good luck. 
 
-
 • Visit: boredalchemist.com to find our other games!
+
 • Twitter: https://twitter.com/balchemistgames
+
 • Facebook: https://www.facebook.com/Bored-Alchemist-104647171661586
+
 • Instagram: https://www.instagram.com/boredalchemistgames/
 
 ## Project Status
@@ -41,11 +43,9 @@ This project was developed in 2022 and is considered an older project. While it 
 
 https://www.attentra.ir/
 
-![Crashed Image](https://github.com/Meysam-Arab/Crashed-Lost-In-Jungle/imgs/1.png)
-![Crashed Image](https://github.com/Meysam-Arab/Attentra/blob/main/Website/attentra/public/style/Responsive-skdslider-mobile/src/image/2.jpg)
-![Crashed Image](https://github.com/Meysam-Arab/Attentra/blob/main/Website/attentra/public/style/Responsive-skdslider-mobile/src/image/3.jpg)
-![Crashed Image](https://github.com/Meysam-Arab/Attentra/blob/main/Website/attentra/public/style/Responsive-skdslider-mobile/src/image/4.jpg)
-![Crashed Image](https://github.com/Meysam-Arab/Attentra/blob/main/Website/attentra/public/style/Responsive-skdslider-mobile/src/image/5.jpg)
-![Crashed Image](https://github.com/Meysam-Arab/Attentra/blob/main/Website/attentra/public/style/Responsive-skdslider-mobile/src/image/6.jpg)
-
-
+![Crashed Image](https://github.com/Meysam-Arab/Crashed-Lost-In-Jungle/blob/main/imgs/1.png)
+![Crashed Image](https://github.com/Meysam-Arab/Crashed-Lost-In-Jungle/blob/main/imgs/2.png)
+![Crashed Image](https://github.com/Meysam-Arab/Crashed-Lost-In-Jungle/blob/main/imgs/3.png)
+![Crashed Image](https://github.com/Meysam-Arab/Crashed-Lost-In-Jungle/blob/main/imgs/4.png)
+![Crashed Image](https://github.com/Meysam-Arab/Crashed-Lost-In-Jungle/blob/main/imgs/5.png)
+![Crashed Image](https://github.com/Meysam-Arab/Crashed-Lost-In-Jungle/blob/main/imgs/6.png)
