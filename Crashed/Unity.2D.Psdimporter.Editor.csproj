@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BDDFA70F-6F5E-8FA2-2CFC-991BF018C822}</ProjectGuid>
+    <ProjectGuid>{BC8D9DB4-27CA-DCE1-10F7-C8B8EA01E2F2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>PsdPlugin</AssemblyName>
+    <AssemblyName>Unity.2D.Psdimporter.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -48,7 +48,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
-    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2021.3.8f1</UnityVersion>
   </PropertyGroup>
@@ -56,55 +56,27 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\RawLayerInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Util.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\LayerUnicodeName.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\PsdBinaryReader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\DocumentLoadContext.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Rectangle.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\RleReader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\ImageDecoderPdn.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\VersionInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\LayerSectionInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\LoadContext.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\AlphaChannelNames.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\PsdFile.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ZipPredict16Image.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\PDNDecodeJob.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\RleImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\Mask.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Enums.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\RawImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ImageDataFactory.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Document.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\PsdLoad.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\LayerId.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\BitmapLayer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\BlendingRanges.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ZipImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\Channel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResource.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\RleRowLengths.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\ResolutionInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\BlendModeMapping.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Exceptions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\Thumbnail.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\EndianReverser.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\RawImageResource.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ZipPredict32Image.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\PsdBlendMode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\UnicodeAlphaNames.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\Layer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Surface.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ImageData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\InfoLayers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\RleWriter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Size.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\Analytics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\ImportUtilites.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDImporterDataProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\TexturePlatformSettingsController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDImporterEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\TexturePlatformSettingsModal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDImportData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\SpriteData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDLayerMappingStrategy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\TexturePlatformSettingsView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDImporterEditorLayerTreeView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDImportPostProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\TextureSettingsGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDImporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\Tasks\ExtractLayerTask.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\Tasks\FlattenImageTask.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDLayer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdPlugin.asmdef" />
+    <None Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\Unity.2D.Psdimporter.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -799,6 +771,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="PsdPlugin.csproj">
+      <Project>{BDDFA70F-6F5E-8FA2-2CFC-991BF018C822}</Project>
+      <Name>PsdPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{BB2DA5D1-5353-5341-15DF-037F8FF7AFD8}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
+      <Project>{970E234D-4B50-BDE1-C859-BEFEB50C6842}</Project>
+      <Name>Unity.2D.Common.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
+      <Project>{76C2B992-8FF8-B1E8-1099-3D87909194C0}</Project>
+      <Name>Unity.2D.Animation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
+      <Project>{3264D74B-27FF-FAD3-C1FF-C6BA00F71D74}</Project>
+      <Name>Unity.2D.Animation.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{B632AAC2-A78C-585C-5415-27EDE791209D}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
+      <Project>{4DFACBAD-EF48-023A-9BFB-71D03918A385}</Project>
+      <Name>Unity.InternalAPIEngineBridge.001</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{F4CC739A-4E61-D9A2-6F85-4156A5642F7C}</Project>
       <Name>UnityEditor.UI</Name>

@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BDDFA70F-6F5E-8FA2-2CFC-991BF018C822}</ProjectGuid>
+    <ProjectGuid>{C1B4B277-50F9-648E-E811-3543AF1298F0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>PsdPlugin</AssemblyName>
+    <AssemblyName>Unity.CollabProxy.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,7 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -48,7 +48,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
-    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2021.3.8f1</UnityVersion>
   </PropertyGroup>
@@ -56,55 +56,152 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\RawLayerInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Util.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\LayerUnicodeName.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\PsdBinaryReader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\DocumentLoadContext.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Rectangle.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\RleReader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\ImageDecoderPdn.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\VersionInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\LayerSectionInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\LoadContext.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\AlphaChannelNames.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\PsdFile.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ZipPredict16Image.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\PDNDecodeJob.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\RleImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\Mask.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Enums.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\RawImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ImageDataFactory.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Document.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\PsdLoad.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\LayerId.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\BitmapLayer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\BlendingRanges.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ZipImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\Channel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResource.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\RleRowLengths.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\ResolutionInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\BlendModeMapping.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Exceptions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\Thumbnail.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\EndianReverser.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\RawImageResource.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ZipPredict32Image.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\PsdBlendMode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\UnicodeAlphaNames.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\Layer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Surface.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ImageData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\InfoLayers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\RleWriter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Size.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\IStartView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\Adapters\IAdapter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\SearchBar.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Utilities\Threading.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\CloudCollabService.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\TextButton.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Presenters\IHistoryPresenter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\MainModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\CloudCollabSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\IHistoryView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\UserInterface\ToolbarButton.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\StartPageView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\SettingsProviderVisuals\CloudCollabVisuals.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\Structures\ProgressInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Presenters\IPresenter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\Structures\ErrorInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\ErrorPageView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\ChangesGroupHeader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Common\ScriptableObjectSingleton.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\IView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Utilities\StringUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Common\ArrayContainer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Settings\CollabSettingsManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\IChangesView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Common\SerializableDictionary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\Structures\HistoryEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\Api\ISourceControlProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\Adapters\ListAdapters\ConflictedChangeListAdapter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\UserInterface\WindowCache.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\StartModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Settings\CollabSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Presenters\IMainPresenter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Presenters\ChangesPresenter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\TabView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\Adapters\ListAdapters\HistoryEntryChangeListAdapter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Common\LocationAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\UiConstants.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\ProgressView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\ChangeListElements\HistoryChangeListElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\IStartModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\ChangeEntryGroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Settings\CollabSetting.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\Structures\IChangeEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\Structures\IErrorInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\Paginator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\TopBar.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Utilities\ExtensionMethods.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\IMainView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\IModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Utilities\MenuUtilities.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\Menus\FloatingMenuItem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\SettingsProviderVisuals\LearnMoreVisualHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\IconButton.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\SettingsProviderVisuals\EnabledVisuals.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\MainPageView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\HistoryModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Presenters\StartPresenter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\ChangeListElements\ToggleableChangeListElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\ChangesTabPageView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\IHistoryModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Utilities\OpenLinksUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\Menus\FloatingMenu.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\UserInterface\Bootstrap.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Presenters\IChangesPresenter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\HistoryTabPageView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\IMainModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\ChangeListElements\ChangeListElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\ChangeListElements\BaseChangeListElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\AlertBox.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\BetterTextField.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\Structures\IChangeEntryData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\StringAssets.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\PageComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\HistoryEntryComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\Menus\FloatingDialogue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\Adapters\ListAdapters\ToggleableChangeListAdapter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Common\StringArrayContainer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\UserInterface\CollaborateWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Presenters\HistoryPresenter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\CloudCollabServiceIdentifier.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\Providers\Collab.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\TabPageComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\CloudCollabTopMenu.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\ListNotice.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\SettingsProviderVisuals\IVisuals.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\IChangesModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\CloudCollabEnabler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\ChangesModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\SettingsProviderVisuals\DisabledVisuals.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Presenters\IStartPresenter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\Adapters\IAdapterObserver.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Settings\CollabSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\Analytics\EditorGameServiceAnalyticsSender.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Views\Adapters\ListAdapters\BaseListAdapter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\Enums\ProjectStatus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\ChangeListElements\ConflictedChangeListElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\Structures\ChangeEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\Structures\IHistoryEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Presenters\MainPresenter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\IconTextButton.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Properties\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Components\AdapterListView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Models\Structures\IProgressInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Utilities\TimeStamp.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdPlugin.asmdef" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\ChangesTabPageView.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\ProgressView.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\HistoryEntryComponent.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\StartPageView.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\FloatingMenuItem.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\HistoryEntryComponent.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\ErrorPageView.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\ChangesTabPageView.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\SettingsProviderVisuals\UXML\CollabProjectSettingsEnabled.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\ListNotice.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\StartPageView.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\AlertBox.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\SettingsProviderVisuals\USS\ServicesProjectSettingsCommon.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\FloatingMenu.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\BetterTextField.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\AlertBox.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\TabView.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\TopBar.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\FloatingDialogue.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Unity.CollabProxy.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\styles.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\TopBar.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\Paginator.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\ProgressView.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\SearchBar.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\ChangesGroupHeader.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\MainPageView.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\Paginator.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\IconTextButton.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\ToggleableChangeListElement.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\IconButton.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\TextButton.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\HistoryTabPageView.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\BaseChangeListElement.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\EditorGameService\SettingsProviderVisuals\UXML\CollabProjectSettingsDisabled.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\BaseChangeListElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\ListNotice.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\main-window.uxml" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Styles\ChangesGroupHeader.uss" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.1\Editor\Collaborate\Assets\Layouts\MainPageView.uxml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -799,6 +896,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{517E414C-9844-9C67-9A9D-685BCD365EFC}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Editor.csproj">
+      <Project>{0595E55B-8A81-4895-351D-CEF6FB6FA702}</Project>
+      <Name>Unity.Services.Core.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{F4CC739A-4E61-D9A2-6F85-4156A5642F7C}</Project>
       <Name>UnityEditor.UI</Name>

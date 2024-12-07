@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BDDFA70F-6F5E-8FA2-2CFC-991BF018C822}</ProjectGuid>
+    <ProjectGuid>{A4BECBBE-87CA-E823-9AD6-B460F72028CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>PsdPlugin</AssemblyName>
+    <AssemblyName>Unity.Burst.CodeGen</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -56,55 +56,17 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\RawLayerInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Util.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\LayerUnicodeName.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\PsdBinaryReader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\DocumentLoadContext.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Rectangle.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\RleReader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\ImageDecoderPdn.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\VersionInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\LayerSectionInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\LoadContext.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\AlphaChannelNames.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\PsdFile.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ZipPredict16Image.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\PDNDecodeJob.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\RleImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\Mask.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Enums.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\RawImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ImageDataFactory.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Document.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\PsdLoad.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\LayerId.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\BitmapLayer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\BlendingRanges.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ZipImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\Channel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResource.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\RleRowLengths.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\ResolutionInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\BlendModeMapping.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Exceptions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\Thumbnail.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\EndianReverser.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\RawImageResource.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ZipPredict32Image.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\PsdBlendMode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\UnicodeAlphaNames.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\Layer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Surface.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ImageData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\InfoLayers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\RleWriter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Size.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\FunctionPointerInvokeTransform.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\AssemblyLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\ILPostProcessing.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\BurstILPostProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdPlugin.asmdef" />
+    <None Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll" />
+    <None Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll" />
+    <None Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll" />
+    <None Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.CodeGen.asmdef" />
+    <None Include="Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -365,38 +327,8 @@
     <Reference Include="UnityEditor.UWP.Extensions">
       <HintPath>C:\Program Files\Unity\2021.3.8f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="GoogleMobileAds">
-      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.dll</HintPath>
-    </Reference>
-    <Reference Include="GoogleMobileAds.Platforms">
-      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Platforms.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="GoogleMobileAds.Placement">
-      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Placement.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="GoogleMobileAds.Core">
-      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
@@ -404,17 +336,8 @@
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
-    <Reference Include="Google.MiniJson">
-      <HintPath>Assets\Plugins\Google.MiniJson.dll</HintPath>
-    </Reference>
-    <Reference Include="GoogleMobileAds.Common">
-      <HintPath>Assets\GoogleMobileAds\GoogleMobileAds.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\2021.3.8f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -797,23 +720,14 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity\2021.3.8f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.CompilationPipeline.Common">
+      <HintPath>C:\Program Files\Unity\2021.3.8f1\Editor\Data\Managed\Unity.CompilationPipeline.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{F4CC739A-4E61-D9A2-6F85-4156A5642F7C}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C483E49D-837E-9771-EDBC-4670BD7A9E8C}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{2349002A-BEFA-9780-4628-9A89B7831914}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{C86932B4-27B6-F988-A86A-7C94EE8C4728}</Project>
-      <Name>UnityEditor.TestRunner</Name>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{9B1966A5-D110-CD4B-CE6F-8E7F9EED5BF0}</Project>
+      <Name>Unity.Burst</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

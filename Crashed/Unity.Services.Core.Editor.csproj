@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BDDFA70F-6F5E-8FA2-2CFC-991BF018C822}</ProjectGuid>
+    <ProjectGuid>{0595E55B-8A81-4895-351D-CEF6FB6FA702}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>PsdPlugin</AssemblyName>
+    <AssemblyName>Unity.Services.Core.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -22,11 +22,11 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_8;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_8;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_OPERATE_SERVICE_ENABLED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,7 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -48,7 +48,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
-    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2021.3.8f1</UnityVersion>
   </PropertyGroup>
@@ -56,55 +56,86 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\RawLayerInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Util.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\LayerUnicodeName.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\PsdBinaryReader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\DocumentLoadContext.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Rectangle.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\RleReader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\ImageDecoderPdn.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\VersionInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\LayerSectionInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\LoadContext.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\AlphaChannelNames.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\PsdFile.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ZipPredict16Image.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\PDNDecodeJob.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\RleImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\Mask.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Enums.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\RawImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ImageDataFactory.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Document.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\PsdLoad.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\LayerId.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\BitmapLayer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\BlendingRanges.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ZipImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\Channel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResource.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\RleRowLengths.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\ResolutionInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PhotoShopFileType\BlendModeMapping.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Exceptions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\Thumbnail.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\EndianReverser.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\RawImageResource.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ZipPredict32Image.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\PsdBlendMode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\ImageResources\UnicodeAlphaNames.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\Layer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Surface.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Compression\ImageData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\Layers\LayerInfo\InfoLayers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdFile\RleWriter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PDNWrapper\Size.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectBindRedirect\ProjectBindRedirectContentUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectStateManagement\ProjectStateRequest.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectStateManagement\ServiceFlagRequest.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\EditorGameServiceRegistry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectStateManagement\ProjectStateHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\ServiceInstallationListener.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\EditorGameServiceFlagEnabler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\IProjectEditorDrawerFactory.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\VisualElementHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\BackendHelpers\JsonHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectStateManagement\IProjectStateHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UserRoleManagement\UserRole.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\SettingsCommonHeaderUiHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\SliderToggleUiHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\EditorGameServiceSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\IEditorGameServiceIdentifier.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\IEditorGameService.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\LoggedOutUiHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\Networking\ProductionTokenExchangeUrls.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\Analytics\EditorGameServiceAnalyticsSender.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectStateManagement\ProjectState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\CloudEnvironment\CloudEnvironmentConfigProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\PlatformSupportUiHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\Networking\ITokenExchangeUrls.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectBindRedirect\ProjectBindRedirectPopupUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectStateManagement\IServiceFlagRequest.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UserRoleManagement\IUserRoleHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\ServiceFlagEndpoint.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\Utils\OrganizationHandler\IOrganizationHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectStateManagement\IProjectStateRequest.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\Analytics\EditorGameServiceAnalyticsRegistrant.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectBindRedirect\ProjectBindRedirectPopupWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\Utils\OrganizationHandler\OrganizationProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\ExceptionHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UserRoleManagement\IUserRoleRequest.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\Utils\OrganizationHandler\OrganizationHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\IEditorGameServiceEnabler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\Analytics\IEditorAnalyticsEventRegistrant.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UserRoleManagement\UserRoleHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\OfflineUiHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\Telemetry\OperatePackageVersionConfigProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\DefaultCdnConfiguredEndpoint.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\AccessTokenErrorUiHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\EditorGameServiceDashboardHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\UserRoleRequestUiHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UserRoleManagement\UserRoleRequest.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\Analytics\IEditorGameServiceAnalyticsSender.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\IEditorGameServiceRegistry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\BackendHelpers\UnityWebRequestHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectBindRedirect\ProjectBindRedirectProjectSettingsUi.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\Utils\AccessTokens.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\Networking\TokenExchange.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectBindRedirect\ProjectBindRedirectUiConstants.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\EditorGameServiceRemoteConfiguration.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\Telemetry\PackageConfig.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDPlugin\PsdPlugin.asmdef" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\UXML\ExceptionVisual.uxml" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectBindRedirect\UXML\ProjectBindRedirectContent.uxml" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\USS\PlatformSupportVisualDark.uss" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectBindRedirect\USS\ProjectBindRedirectProjectSettings.uss" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\USS\PlatformSupportVisualLight.uss" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\UXML\PleaseWait.uxml" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectBindRedirect\UXML\ProjectBindRedirectProjectSettings.uxml" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectBindRedirect\USS\ProjectBindRedirectPopupCommon.uss" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\UXML\ProjectSettingsCommonHeader.uxml" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\USS\SliderToggleCommon.uss" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\USS\PlatformSupportVisualCommon.uss" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectBindRedirect\USS\ProjectBindRedirectPopupDark.uss" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\USS\ServicesProjectSettingsCommon.uss" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\UXML\AccessTokenError.uxml" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\USS\ServicesProjectSettingsLight.uss" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\Unity.Services.Core.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectBindRedirect\USS\ProjectBindRedirectPopupLight.uss" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\ProjectBindRedirect\UXML\ProjectBindRedirectPopup.uxml" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\EditorGameService\USS\ServicesProjectSettingsDark.uss" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\UXML\LoggedOut.uxml" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\UXML\PlatformSupportVisual.uxml" />
+    <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor\Core\UiHelpers\UXML\Offline.uxml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -799,6 +830,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{DBF531C0-5192-1210-76D5-E3157C288040}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Networking.csproj">
+      <Project>{E149CEF4-D444-E338-7D9C-1F01DA0D6689}</Project>
+      <Name>Unity.Services.Core.Networking</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Internal.csproj">
+      <Project>{068A75DD-7C6B-D539-1ED8-292F473B0D8B}</Project>
+      <Name>Unity.Services.Core.Internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Configuration.Editor.csproj">
+      <Project>{91C586B7-515B-2E3C-687C-D874BECCDF2B}</Project>
+      <Name>Unity.Services.Core.Configuration.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Telemetry.csproj">
+      <Project>{F52DC836-DA5F-2713-C38B-A8158093B0B3}</Project>
+      <Name>Unity.Services.Core.Telemetry</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{F4CC739A-4E61-D9A2-6F85-4156A5642F7C}</Project>
       <Name>UnityEditor.UI</Name>
