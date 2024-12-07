@@ -3,7 +3,7 @@ Crashed - Lost In Jungle is a turn-based roguelike mobile game developed in Unit
 
 
 ![Crashed Image](https://github.com/Meysam-Arab/Crashed-Lost-In-Jungle
-/blob/main/Website/attentra/public/style/main/img/book1.png)
+/imgs/1920X1920.png)
 
 "Crashed-Lost-In-Jungle" is a turn-based roguelike mobile game developed in Unity.
 
